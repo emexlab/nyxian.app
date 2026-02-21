@@ -1,0 +1,17 @@
+lucavmu:
+  name: LucaVmu
+  title: Website maintainer
+  image_url: https://github.com/LucaVmu.png
+  page: true
+  socials:
+    github: LucaVmu
+
+frida:
+  name: Frida
+  title: Nyxian maintaner
+  image_url: https://github.com/cr4zyengineer.png
+  page:
+    permalink: '/cr4zyengineer'
+  socials:
+    x: cr4zyengineer
+    github: cr4zyengineer
