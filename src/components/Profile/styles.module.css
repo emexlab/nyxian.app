@@ -1,0 +1,16 @@
+.profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 32px;
+    color: inherit;
+}
+
+.profileIcon {
+    width: 80px;
+    border-radius: 100%;
+}
+
+.profileName {
+    margin-bottom: 0;
+}

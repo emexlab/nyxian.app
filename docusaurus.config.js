@@ -14,7 +14,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Nyxian',
   tagline: 'Nyxian the native iOS app development IDE',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -37,20 +37,19 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
+  /*i18n: {
     defaultLocale: 'en',
     locales: ['en', 'de'],
     localeConfigs: {
       en: {
-        url: 'https://nyxian.app',
-        baseUrl: '/',
+        htmlLang: 'en-GB',
       },
       de: {
-        url: 'https://de.nyxian.app',
-        baseUrl: '/',
+        baseUrl: '/de',
+        htmlLang: 'de',
       },
     },
-  },
+  },*/
 
   presets: [
     [
@@ -108,11 +107,21 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'News', position: 'left'},
+          {
+            to: '/blog',
+            label: 'News',
+            position: 'left'
+          },
+          /*{
+            type: 'localeDropdown',
+            position: 'right',
+            queryString: '?persistLocale=true',
+          },*/
           {
             href: 'https://github.com/ProjectNyxian/Nyxian',
-            label: 'GitHub',
             position: 'right',
+            className: "header-github-link",
+            'aria-label': 'GitHub',
           },
         ],
       },
