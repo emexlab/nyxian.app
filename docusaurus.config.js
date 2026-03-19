@@ -179,61 +179,61 @@ const config = {
         {name: 'keywords', content: 'Nyxian, native iOS app development, IDE, jailed, unjailbroken, custom kernel'},
         {name: "description", content: 'IDE to develop native code iOS apps on unjailbroken iOS it self just via a certificate and a kernel virtualization layer for those apps. '},
       ],
-      headTags: [
-        {
-          tagName: 'link',
-          attributes: {
-            rel: 'icon',
-            type: 'image/png',
-            href: '/favicon/favicon-96x96.png',
-            sizes: '96x96',
-          },
-        },
-        {
-          tagName: 'link',
-          attributes: {
-            rel: 'icon',
-            type: 'image/svg+xml',
-            href: '/favicon/favicon.svg',
-          },
-        },
-        {
-          tagName: 'link',
-          attributes: {
-            rel: 'shortcut icon',
-            href: '/favicon/favicon.ico',
-          },
-        },
-        {
-          tagName: 'link',
-          attributes: {
-            rel: 'apple-touch-icon',
-            sizes: '180x180',
-            href: '/favicon/apple-touch-icon.png',
-          },
-        },
-        {
-          tagName: 'link',
-          attributes: {
-            rel: 'manifest',
-            href: '/favicon/site.webmanifest',
-          },
-        },
-        {
-          tagName: 'script',
-          attributes: {
-            type: 'application/ld+json',
-          },
-          innerHTML: JSON.stringify({
-            '@context': 'https://schema.org/',
-            '@type': 'Organization',
-            name: 'ProjectNyxian',
-            url: 'https://nyxian.app/',
-            logo: 'https://nyxian.app/img/icon/hd/light.png',
-          }),
-        },
-      ],
     }),
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon/favicon-96x96.png',
+        sizes: '96x96',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/favicon/favicon.svg',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'shortcut icon',
+        href: '/favicon/favicon.ico',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/favicon/apple-touch-icon.png',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'manifest',
+        href: '/favicon/site.webmanifest',
+      },
+    },
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org/',
+        '@type': 'Organization',
+        name: 'ProjectNyxian',
+        url: 'https://nyxian.app/',
+        logo: 'https://nyxian.app/img/icon/hd/light.png',
+      }),
+    },
+  ],
   plugins: [require.resolve('docusaurus-lunr-search')],
   markdown: {
     mermaid: true,
