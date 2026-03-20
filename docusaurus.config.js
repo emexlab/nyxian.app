@@ -177,7 +177,8 @@ const config = {
       },
       metadata: [
         {name: 'keywords', content: 'Nyxian, native iOS app development, IDE, jailed, unjailbroken, custom kernel'},
-        {name: "description", content: 'IDE to develop native code iOS apps on unjailbroken iOS it self just via a certificate and a kernel virtualization layer for those apps. '},
+        {name: 'description', content: 'IDE to develop native code iOS apps on unjailbroken iOS it self just via a certificate and a kernel virtualization layer for those apps. '},
+        {name: 'apple-mobile-web-app-title', content: 'Nyxian Docs'},
       ],
     }),
   headTags: [
