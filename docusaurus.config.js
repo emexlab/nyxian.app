@@ -154,7 +154,7 @@ const config = {
               },
               {
                 label: 'X (formerly Twitter)',
-                href: 'https://x.com/cr4zyengineer',
+                href: 'https://x.com/nyxengineer',
               },
             ],
           },
