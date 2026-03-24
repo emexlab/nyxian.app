@@ -49,7 +49,7 @@ const config = {
         },
         blog: {
           blogTitle: 'Nyxian News',
-          blogDescription: 'News about Nyxian and it's development progress.',
+          blogDescription: 'News about Nyxian and its development progress.',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
