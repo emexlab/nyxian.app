@@ -1,6 +1,6 @@
 # nyxian.app
 <a target="_blank" href="https://discord.gg/VEMvDMJ8KB"><img src="https://dcbadge.limes.pink/api/server/VEMvDMJ8KB?style=flat" alt=""></a>
-<a href="https://github.com/ProjectNyxian/nyxian.app/actions/workflows/build.yml"><img src="https://github.com/ProjectNyxian/Nyxian/actions/workflows/build.yml/badge.svg" alt="Build website"></a>
+<a href="https://github.com/ProjectNyxian/nyxian.app/actions/workflows/build.yml"><img src="https://github.com/ProjectNyxian/nyxian.app/actions/workflows/build.yml/badge.svg" alt="Build website"></a>
 
 [nyxian.app](https://nyxian.app/) was built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
