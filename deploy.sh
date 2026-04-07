@@ -2,7 +2,7 @@
 
 set -e
 
-echo 'Make sure you ran "npm run build" beforehand.'
+npm run build
 
 ssh "$1" /bin/sh <<'EOF'
 set -e
