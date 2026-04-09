@@ -11,7 +11,7 @@ fi
 
 ssh "$1" /bin/sh <<'EOF'
 set -e
-rm -r "$HOME/nyxian.app"
+rm -rf "$HOME/nyxian.app"
 EOF
 
 scp -rC "$(dirname "$(realpath "$0")")/build" "$1:~/nyxian.app"
