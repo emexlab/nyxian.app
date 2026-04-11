@@ -35,7 +35,7 @@ This command generates static content into the `build` directory and can be serv
 ## Deployment
 
 ```bash
-deploy.sh user@server
+deploy.sh user@host
 ```
 
-This will build the site and upload it via ssh using the specified user to the specified server.
+This will build the site and upload it via ssh using the specified user to the specified host.
