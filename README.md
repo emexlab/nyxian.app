@@ -31,3 +31,11 @@ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+```bash
+deploy.sh user@server
+```
+
+This will build the site and upload it via ssh using the specified user to the specified server.
