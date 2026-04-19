@@ -38,4 +38,4 @@ This command generates static content into the `build` directory and can be serv
 deploy.sh user@host
 ```
 
-This will build the site and upload it via ssh using the specified user to the specified host.
+This will build the site and upload it via ssh to the specified host as the specified user.
