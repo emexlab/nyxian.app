@@ -17,7 +17,6 @@ const config = {
 
   url: process.env.URL || 'https://nyxian.app/',
   baseUrl: process.env.BASE_URL || '/',
-  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
