@@ -34,6 +34,12 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
+### Github Pages
+
+You can find an automatic build of the newest state at https://projectnyxian.github.io/nyxian.app/
+
+### SSH
+
 ```bash
 deploy.sh user@host
 ```
