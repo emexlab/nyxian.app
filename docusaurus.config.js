@@ -205,7 +205,7 @@ const config = {
       tagName: 'link',
       attributes: {
         rel: 'shortcut icon',
-        href: 'favicon/favicon.ico',
+        href: 'favicon.ico',
       },
     },
     {
