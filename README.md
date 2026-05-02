@@ -12,6 +12,14 @@
     - [ ] Entitlement system
     - [ ] Kernel explaination
 
+## Quickstart
+
+```bash
+quickstart.sh
+```
+
+This script setups everything for you.
+
 ## Installation
 
 ```bash
