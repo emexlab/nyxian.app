@@ -189,7 +189,7 @@ const config = {
       attributes: {
         rel: 'icon',
         type: 'image/png',
-        href: '/favicon/favicon-96x96.png',
+        href: process.env.BASE_URL || '/' + 'favicon/favicon-96x96.png',
         sizes: '96x96',
       },
     },
@@ -198,14 +198,14 @@ const config = {
       attributes: {
         rel: 'icon',
         type: 'image/svg+xml',
-        href: '/favicon/favicon.svg',
+        href: process.env.BASE_URL || '/' + 'favicon/favicon.svg',
       },
     },
     {
       tagName: 'link',
       attributes: {
         rel: 'shortcut icon',
-        href: '/favicon.ico',
+        href: process.env.BASE_URL || '/' + 'favicon.ico',
       },
     },
     {
@@ -213,14 +213,14 @@ const config = {
       attributes: {
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/favicon/apple-touch-icon.png',
+        href: process.env.BASE_URL || '/' + 'favicon/apple-touch-icon.png',
       },
     },
     {
       tagName: 'link',
       attributes: {
         rel: 'manifest',
-        href: '/favicon/site.webmanifest',
+        href: process.env.BASE_URL || '/' + 'favicon/site.webmanifest',
       },
     },
     {
