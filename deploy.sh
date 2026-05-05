@@ -22,6 +22,8 @@ scp -rC ./build "$1:~/nyxian.app"
 
 ssh "$1" /bin/sh <<'EOF'
 set -e
+find "$HOME/nyxian.app" -type d -exec chmod 755 {} \;
+find "$HOME/nyxian.app" -type f -exec chmod 644 {} \;
 mv --exchange -T "$HOME/nyxian.app" /var/www/nyxian.app
 rm -rf "$HOME/nyxian.app"
 EOF
