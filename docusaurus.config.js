@@ -233,6 +233,13 @@ const config = {
       },
     },
     {
+      tagName: 'link',
+      attributes: {
+        rel: 'sitemap',
+        href: baseUrl + 'sitemap.xml',
+      },
+    },
+    {
       tagName: 'script',
       attributes: {
         type: 'application/ld+json',
