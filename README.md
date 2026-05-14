@@ -55,3 +55,6 @@ deploy.sh user@host
 ```
 
 This will build the site and upload it via ssh to the specified host as the specified user.
+
+> [!NOTE]
+> It’s recommended to set up SSH keys beforehand. Otherwise, you’ll be prompted for your SSH password three times during deployment.
