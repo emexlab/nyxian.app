@@ -15,7 +15,7 @@
 ## Quickstart
 
 ```bash
-quickstart.sh
+./quickstart.sh
 ```
 
 This script setups everything for you.
@@ -51,7 +51,7 @@ You can find an automatic build of the newest state at https://projectnyxian.git
 ### SSH
 
 ```bash
-deploy.sh user@host
+./deploy.sh user@host
 ```
 
 This will build the site and upload it via ssh to the specified host as the specified user.
