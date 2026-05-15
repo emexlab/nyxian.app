@@ -184,7 +184,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['c'],
+        additionalLanguages: ['c', 'csharp'],
       },
       metadata: [
         {name: 'keywords', content: 'Nyxian, native iOS app development, IDE, jailed, unjailbroken, custom kernel'},
