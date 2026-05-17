@@ -14,10 +14,10 @@ function HomepageHeader() {
     <header className={clsx('hero--primary', styles.heroBanner)}>
       <div className="container">
         <ThemedImage
-          alt="Nyxian Logo"
+          alt="emexDE Logo"
           sources={{
-            light: useBaseUrl('/img/icon/hd/light.png'),
-            dark: useBaseUrl('/img/icon/hd/dark.png'),
+            light: useBaseUrl('/img/icon/light.png'),
+            dark: useBaseUrl('/img/icon/dark.png'),
           }}
           className={styles.logo}
         />

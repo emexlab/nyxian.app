@@ -2,12 +2,13 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-const url = process.env.URL || 'https://nyxian.app/';
-const baseUrl = process.env.BASE_URL || '/';
+const url = process.env.URL || 'https://emexlab.org/';
+const baseUrl = process.env.BASE_URL || '/emexDE/';
+const github = 'emexlab/emexlab.github.io'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Nyxian',
+  title: 'emexDE',
   tagline: 'IDE to develop native code iOS apps and tools on unjailbroken iOS',
   //favicon: '/favicon/favicon.ico', Unused, see the headTags at the bottom
 
@@ -54,11 +55,11 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/ProjectNyxian/nyxian.app/tree/main/',
+            'https://github.com/' + github + '/tree/main/',
         },
         blog: {
-          blogTitle: 'Nyxian News',
-          blogDescription: 'News about Nyxian and its development progress.',
+          blogTitle: 'emexDE News',
+          blogDescription: 'News about emexDE and its development progress.',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -83,9 +84,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Nyxian',
+        title: 'emexDE',
         logo: {
-          alt: 'Nyxian Logo',
+          alt: 'emexDE Logo',
           src: 'img/icon/light.png',
           srcDark: 'img/icon/dark.png',
           className: 'rounded',
@@ -108,19 +109,19 @@ const config = {
             queryString: '?persistLocale=true',
           },*/
           {
-            href: 'https://github.com/ProjectNyxian/Nyxian',
+            href: 'https://github.com/emexlab/emexDE',
             position: 'right',
             className: "navbar-icon github",
             'aria-label': 'GitHub',
           },
           {
-            href: 'https://discord.gg/VEMvDMJ8KB',
+            href: 'https://discord.gg/Cbeg3gJzC7',
             position: 'right',
             className: "navbar-icon discord",
             'aria-label': 'Discord',
           },
           {
-            href: 'https://github.com/sponsors/ProjectNyxian',
+            href: 'https://github.com/sponsors/emexlab',
             position: 'right',
             className: "navbar-icon sponsor",
             'aria-label': 'Sponsor',
@@ -148,11 +149,11 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/ProjectNyxian/Nyxian',
+                href: 'https://github.com/emexlab/emexDE',
               },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/VEMvDMJ8KB',
+                href: 'https://discord.gg/Cbeg3gJzC7',
               },
             ],
           },
@@ -165,7 +166,7 @@ const config = {
               },
               {
                 label: 'X (formerly Twitter)',
-                href: 'https://x.com/nyxengineer',
+                href: 'https://x.com/emexthecat',
               },
             ],
           },
@@ -174,12 +175,12 @@ const config = {
             items: [
               {
                 label: 'Email',
-                href: 'mailto:ceo@nyxian.app',
+                href: 'mailto:ceo@emexlab.org',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ProjectNyxian. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} emexlab. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
@@ -187,9 +188,9 @@ const config = {
         additionalLanguages: ['c', 'csharp'],
       },
       metadata: [
-        {name: 'keywords', content: 'Nyxian, native iOS app development, IDE, jailed, unjailbroken, custom kernel'},
+        {name: 'keywords', content: 'emexDE, native iOS app development, IDE, jailed, unjailbroken, custom kernel'},
         {name: 'description', content: 'IDE to develop native code iOS apps on unjailbroken iOS it self just via a certificate and a kernel virtualization layer for those apps. '},
-        {name: 'apple-mobile-web-app-title', content: 'Nyxian Docs'},
+        {name: 'apple-mobile-web-app-title', content: 'emexDE Docs'},
       ],
     }),
   headTags: [
@@ -247,9 +248,9 @@ const config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org/',
         '@type': 'Organization',
-        name: 'ProjectNyxian',
-        url: 'https://nyxian.app/',
-        logo: 'https://nyxian.app/img/icon/hd/light.png',
+        name: 'emexlab',
+        url: url,
+        logo: baseUrl + 'img/icon/org.png',
       }),
     },
   ],

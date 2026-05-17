@@ -3,13 +3,20 @@ import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
 export default function NotFoundContent({className}) {
   return (
     <main className={clsx('container margin-vert--xl', className)}>
       <div className="row">
         <div className="col col--6 col--offset-3" align="center">
           <Heading as="h1" className="hero__title"  align="center">
-            <img src={useBaseUrl("/img/404.png")} alt="404" />
+            <ThemedImage
+              alt="404"
+              sources={{
+                light: useBaseUrl('/img/404/light.png'),
+                dark: useBaseUrl('/img/404/dark.png'),
+              }}
+            />
             <Translate
               id="theme.NotFound.title"
               description="The title of the 404 page">

@@ -15,17 +15,17 @@ if [ "$2" != "--skip-build" ] && [ "$2" != "-s" ]; then
 fi
 
 ssh "$1" /bin/sh <<'EOF'
-rm -rf "$HOME/nyxian.app"
+rm -rf "$HOME/emexlab"
 EOF
 
-scp -rC ./build "$1:~/nyxian.app"
+scp -rC ./build "$1:~/emexlab"
 
 ssh "$1" /bin/sh <<'EOF'
 set -e
-find "$HOME/nyxian.app" -type d -exec chmod 755 {} \;
-find "$HOME/nyxian.app" -type f -exec chmod 644 {} \;
-mv --exchange -T "$HOME/nyxian.app" /var/www/nyxian.app
-rm -rf "$HOME/nyxian.app"
+find "$HOME/emexlab" -type d -exec chmod 755 {} \;
+find "$HOME/emexlab" -type f -exec chmod 644 {} \;
+mv --exchange -T "$HOME/emexlab" /var/www/emexlab
+rm -rf "$HOME/emexlab"
 EOF
 
 printf "\n\033[32;1mDeployed successfully!\033[0m\n"

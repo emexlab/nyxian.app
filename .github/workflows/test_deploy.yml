@@ -27,7 +27,7 @@ jobs:
       - name: Build site
         env:
           URL: https://emexlab.github.io
-          BASE_URL: /nyxian.app/
+          BASE_URL: /emexDE/
         run: npm run build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

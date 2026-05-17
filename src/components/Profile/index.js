@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 export default function Profile({ name, role, github }) {
     return (
         <a className={styles.profile} href={`https://github.com/${github}`} target='_blank'>
-            <img alt={name} src={`https://github.com/${github}.png`} />
+            <img alt={name} src={`https://github.com/${github.split('/')[0]}.png`} />
             <div>
                 <h2>{name}</h2>
                 <small title={role}>{role}</small>

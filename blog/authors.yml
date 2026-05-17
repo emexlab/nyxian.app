@@ -1,18 +1,37 @@
 lucavmu:
   name: LucaVmu
   title: Website Maintainer and Manager
-  image_url: https://github.com/LucaVmu.png
+  image_url: https://github.com/lucaVmu.png
   page: true
   socials:
     github: LucaVmu
 
+catelyn:
+  name: Catelyn
+  title: Maintainer
+  image_url: https://github.com/mimalloc.png
+  page:
+    permalink: mimalloc
+  socials:
+    x: mimallocly
+    github: mimalloc
+
+emex:
+  name: emex
+  title: Organization Manager
+  image_url: https://github.com/emexos.png
+  page: true
+  socials:
+    x: emexthecat
+    github: emexos
+
 nyxia:
   name: Nyxia
-  title: Maintaner
-  image_url: https://github.com/cr4zyengineer.png
+  title: Retired Maintainer
+  image_url: https://github.com/mach-port-t.png
   page:
-    permalink: '/cr4zyengineer'
+    permalink: '/mach-port-t'
   socials:
     x: nyxengineer
-    github: cr4zyengineer
+    github: mach-port-t
     email: ceo@nyxian.app

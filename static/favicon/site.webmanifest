@@ -1,6 +1,6 @@
 {
-  "name": "Nyxian Documentation",
-  "short_name": "Nyxian Docs",
+  "name": "emexDE Documentation",
+  "short_name": "emexDE Docs",
   "start_url": "../",
   "scope": "../",
   "icons": [
@@ -17,7 +17,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ccaafd",
-  "background_color": "#ccaafd",
+  "theme_color": "#fff",
+  "background_color": "#fff",
   "display": "standalone"
 }

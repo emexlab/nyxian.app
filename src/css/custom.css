@@ -4,28 +4,27 @@
  * work well for content-centric websites.
  */
 
-/* Generated using https://docusaurus.io/docs/styling-layout with the second average dominant color of the hd light and dark icon. */
 :root {
-  --ifm-color-primary: #452470;
-  --ifm-color-primary-dark: #3e2065;
-  --ifm-color-primary-darker: #3b1f5f;
-  --ifm-color-primary-darkest: #30194e;
-  --ifm-color-primary-light: #4c287b;
-  --ifm-color-primary-lighter: #4f2981;
-  --ifm-color-primary-lightest: #5a2f92;
+  --ifm-color-primary: #000;
+  --ifm-color-primary-dark: #000;
+  --ifm-color-primary-darker: #000;
+  --ifm-color-primary-darkest: #000;
+  --ifm-color-primary-light: #000;
+  --ifm-color-primary-lighter: #000;
+  --ifm-color-primary-lightest: #000;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #c8adfc;
-  --ifm-color-primary-dark: #ac84fb;
-  --ifm-color-primary-darker: #9f70fa;
-  --ifm-color-primary-darkest: #7532f8;
-  --ifm-color-primary-light: #e3d6fe;
-  --ifm-color-primary-lighter: #f1ebfe;
-  --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary: #fff;
+  --ifm-color-primary-dark: #fff;
+  --ifm-color-primary-darker: #fff;
+  --ifm-color-primary-darkest: #fff;
+  --ifm-color-primary-light: #fff;
+  --ifm-color-primary-lighter: #fff;
+  --ifm-color-primary-lightest: #fff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 

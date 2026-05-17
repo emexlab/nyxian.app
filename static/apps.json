@@ -1,39 +1,39 @@
 {
-  "name": "Nyxian",
-  "identifier": "com.nyxian.source",
+  "name": "emexDE",
+  "identifier": "com.emexde.source",
   "subtitle": "Unfolding the power of stock iOS coding.",
-  "description": "Nyxian is a iOS app that lets you build and deploy iOS apps directly on-device without owning any computer. Means you can program where ever and when ever and in any type of situation. It currently supports iOS 16.0 upto the latest iOS version. Its designed for people that often find them selves on the go and dont want to take their mac with them selves and for the people who want to get into iOS software development but dont own a mac. Previously such a app didnt exist because no one tried to build something like that, propably because people thought that its not possible.",
-  "iconURL": "https://nyxian.app/img/icon/light.png",
-  "website": "https://nyxian.app/",
+  "description": "emexDE is a iOS app that lets you build and deploy iOS apps directly on-device without owning any computer. Means you can program where ever and when ever and in any type of situation. It currently supports iOS 16.0 upto the latest iOS version. Its designed for people that often find them selves on the go and dont want to take their mac with them selves and for the people who want to get into iOS software development but dont own a mac. Previously such a app didnt exist because no one tried to build something like that, propably because people thought that its not possible.",
+  "iconURL": "https://emexlab.org/img/icon/light.png",
+  "website": "https://emexlab.org/emexDE",
   "tintColor": "#6156e2",
   "featuredApps": [
     "com.cr4zy.nyxian"
   ],
   "apps": [
     {
-      "name": "Nyxian",
+      "name": "emexDE",
       "bundleIdentifier": "com.cr4zy.nyxian",
-      "developerName": "cr4zyengineer",
+      "developerName": "emexLab",
       "subtitle": "IDE to develop native code iOS apps on unjailbroken iOS it self just via a certificate and a kernel virtualization layer for those apps.",
-      "localizedDescription": "Nyxian is an iOS app that empowers developers with a full toolchain they can use while even being offline for iOS development on iPhone. It supports Swift, C, Objective-C, C++ and Objective-C++. It’s a powerful Xcode alternative that made the impossible possible, a fully on-device iOS IDE that doesn’t even need a cloud and can even be used with airplane mode enabled. It supports officially iOS 16 all the way up to the latest iOS version(iOS/iPadOS 26.5 tested). You can compile and run iOS apps on the go with ease, using the entire iOS 26.4 SDK.",
-      "iconURL": "https://nyxian.app/img/icon/light.png",
-      "tintColor": "#9978c8",
+      "localizedDescription": "emexDE is an iOS app that empowers developers with a full toolchain they can use while even being offline for iOS development on iPhone. It supports Swift, C, Objective-C, C++ and Objective-C++. It’s a powerful Xcode alternative that made the impossible possible, a fully on-device iOS IDE that doesn’t even need a cloud and can even be used with airplane mode enabled. It supports officially iOS 16 all the way up to the latest iOS version(iOS/iPadOS 26.5 tested). You can compile and run iOS apps on the go with ease, using the entire iOS 26.4 SDK.",
+      "iconURL": "https://emexlab.org/img/icon/light.png",
+      "tintColor": "#fff",
       "category": "developer",
       "screenshots": {
         "iphone": [],
         "ipad": [
           {
-            "imageURL": "https://nyxian.app/img/screenshots/1.png",
+            "imageURL": "https://emexlab.org/emexDE/img/screenshots/1.png",
             "width": 2360,
             "height": 1640
           },
           {
-            "imageURL": "https://nyxian.app/img/screenshots/2.png",
+            "imageURL": "https://emexlab.org/emexDE/img/screenshots/2.png",
             "width": 2360,
             "height": 1640
           },
           {
-            "imageURL": "https://nyxian.app/img/screenshots/3.png",
+            "imageURL": "https://emexlab.org/emexDE/img/screenshots/3.png",
             "width": 2360,
             "height": 1640
           }
@@ -41,7 +41,7 @@
       },
       "versions": [
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.10.1/nyxian.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.10.1/nyxian.ipa",
           "size": 105262232,
           "version": "0.10.1",
           "buildVersion": "20260515.55.US.frida",
@@ -50,7 +50,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.10.0/nyxian.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.10.0/nyxian.ipa",
           "size": 105262423,
           "version": "0.10.0",
           "buildVersion": "20260515.52.US.frida",
@@ -59,7 +59,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.9.1/nyxian.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.9.1/nyxian.ipa",
           "size": 70680974,
           "version": "0.9.1",
           "buildVersion": "20260404.2.US.runner",
@@ -68,7 +68,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.9/nyxian.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.9/nyxian.ipa",
           "size": 70672861,
           "version": "0.9.0",
           "buildVersion": "20260331.2.US.runner",
@@ -77,7 +77,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.8.6/nyxian.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.8.6/nyxian.ipa",
           "size": 87498780,
           "version": "0.8.6",
           "buildVersion": "20260207.20",
@@ -86,7 +86,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.8.5/nyxian.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.8.5/nyxian.ipa",
           "size": 87483385,
           "version": "0.8.5",
           "buildVersion": "20260202.58",
@@ -95,7 +95,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.8.4/nyxian.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.8.4/nyxian.ipa",
           "size": 87486290,
           "version": "0.8.4",
           "buildVersion": "20260131.32",
@@ -104,7 +104,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.8.3/nyxian.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.8.3/nyxian.ipa",
           "size": 87397280,
           "version": "0.8.3",
           "buildVersion": "20260128.96",
@@ -113,7 +113,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.8.2/Nyxian-Jailed.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.8.2/Nyxian-Jailed.ipa",
           "size": 166143119,
           "version": "0.8.2",
           "buildVersion": "20260121.35",
@@ -122,7 +122,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.8.1/nyxian_0.8.1_kate.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.8.1/nyxian_0.8.1_kate.ipa",
           "size": 155341751,
           "version": "0.8.1",
           "buildVersion": "20251214.2",
@@ -131,7 +131,7 @@
           "minOSVersion": "16.0"
         },
         {
-          "downloadURL": "https://github.com/ProjectNyxian/Nyxian/releases/download/0.8.0/nyxian_0.8.0_kate.ipa",
+          "downloadURL": "https://github.com/emexlab/emexDE/releases/download/0.8.0/nyxian_0.8.0_kate.ipa",
           "size": 155341737,
           "version": "0.8.0",
           "buildVersion": "20251212.104",
@@ -145,51 +145,51 @@
           "get-task-allow"
         ],
         "privacy": {
-          "NSFaceIDUsageDescription": "An app in Nyxian might request this permission.",
-          "NSSystemExtensionUsageDescription": "An app in Nyxian might request this permission.",
-          "NSNearbyInteractionUsageDescription": "An app in Nyxian might request this permission.",
-          "NSContactsUsageDescription": "An app in Nyxian might request this permission.",
-          "NSHealthShareUsageDescription": "An app in Nyxian might request this permission.",
-          "NSPhotoLibraryUsageDescription": "An app in Nyxian might request this permission.",
-          "NSSiriUsageDescription": "An app in Nyxian might request this permission.",
-          "NSRemovableVolumesUsageDescription": "An app in Nyxian might request this permission.",
-          "NSSpeechRecognitionUsageDescription": "An app in Nyxian might request this permission.",
-          "NSSensorKitUsageDescription": "An app in Nyxian might request this permission.",
-          "NSNetworkVolumesUsageDescription": "An app in Nyxian might request this permission.",
-          "NSFileProviderPresenceUsageDescription": "An app in Nyxian might request this permission.",
-          "NSIdentityUsageDescription": "An app in Nyxian might request this permission.",
-          "NSDesktopFolderUsageDescription": "An app in Nyxian might request this permission.",
-          "NSBluetoothWhileInUseUsageDescription": "An app in Nyxian might request this permission.",
-          "NSUserTrackingUsageDescription": "An app in Nyxian might request this permission.",
-          "NSAppleEventsUsageDescription": "An app in Nyxian might request this permission.",
-          "NSRemindersUsageDescription": "An app in Nyxian might request this permission.",
-          "NSVoIPUsageDescription": "An app in Nyxian might request this permission.",
-          "NSFallDetectionUsageDescription": "An app in Nyxian might request this permission.",
-          "NSBluetoothAlwaysUsageDescription": "An app in Nyxian might request this permission.",
-          "NSSystemAdministrationUsageDescription": "An app in Nyxian might request this permission.",
-          "NSHealthUpdateUsageDescription": "An app in Nyxian might request this permission.",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "An app in Nyxian might request this permission.",
-          "NSPhotoLibraryAddUsageDescription": "An app in Nyxian might request this permission.",
-          "NSCameraUsageDescription": "An app in Nyxian might request this permission.",
-          "NSMicrophoneUsageDescription": "An app in Nyxian might request this permission.",
-          "NSLocationUsageDescription": "An app in Nyxian might request this permission.",
-          "NSGKFriendListUsageDescription": "An app in Nyxian might request this permission.",
-          "NSAppleMusicUsageDescription": "An app in Nyxian might request this permission.",
-          "NSMotionUsageDescription": "An app in Nyxian might request this permission.",
-          "NSNearbyInteractionAllowOnceUsageDescription": "An app in Nyxian might request this permission.",
-          "NSVideoSubscriberAccountUsageDescription": "An app in Nyxian might request this permission.",
-          "NSBluetoothPeripheralUsageDescription": "An app in Nyxian might request this permission.",
-          "NSCalendarsUsageDescription": "An app in Nyxian might request this permission.",
-          "NSFocusStatusUsageDescription": "An app in Nyxian might request this permission.",
-          "NSHomeKitUsageDescription": "An app in Nyxian might request this permission.",
-          "NSLocationAlwaysUsageDescription": "An app in Nyxian might request this permission.",
-          "NSLocalNetworkUsageDescription": "An app in Nyxian might request this permission.",
-          "NSDownloadsFolderUsageDescription": "An app in Nyxian might request this permission.",
-          "NSDocumentsFolderUsageDescription": "An app in Nyxian might request this permission.",
-          "NSLocationWhenInUseUsageDescription": "An app in Nyxian might request this permission.",
-          "NSSensorKitPrivacyPolicyURL": "An app in Nyxian might request this permission.",
-          "NSFileProviderDomainUsageDescription": "An app in Nyxian might request this permission.",
-          "NSHealthClinicalHealthRecordsShareUsageDescription": "An app in Nyxian might request this permission."
+          "NSFaceIDUsageDescription": "An app in emexDE might request this permission.",
+          "NSSystemExtensionUsageDescription": "An app in emexDE might request this permission.",
+          "NSNearbyInteractionUsageDescription": "An app in emexDE might request this permission.",
+          "NSContactsUsageDescription": "An app in emexDE might request this permission.",
+          "NSHealthShareUsageDescription": "An app in emexDE might request this permission.",
+          "NSPhotoLibraryUsageDescription": "An app in emexDE might request this permission.",
+          "NSSiriUsageDescription": "An app in emexDE might request this permission.",
+          "NSRemovableVolumesUsageDescription": "An app in emexDE might request this permission.",
+          "NSSpeechRecognitionUsageDescription": "An app in emexDE might request this permission.",
+          "NSSensorKitUsageDescription": "An app in emexDE might request this permission.",
+          "NSNetworkVolumesUsageDescription": "An app in emexDE might request this permission.",
+          "NSFileProviderPresenceUsageDescription": "An app in emexDE might request this permission.",
+          "NSIdentityUsageDescription": "An app in emexDE might request this permission.",
+          "NSDesktopFolderUsageDescription": "An app in emexDE might request this permission.",
+          "NSBluetoothWhileInUseUsageDescription": "An app in emexDE might request this permission.",
+          "NSUserTrackingUsageDescription": "An app in emexDE might request this permission.",
+          "NSAppleEventsUsageDescription": "An app in emexDE might request this permission.",
+          "NSRemindersUsageDescription": "An app in emexDE might request this permission.",
+          "NSVoIPUsageDescription": "An app in emexDE might request this permission.",
+          "NSFallDetectionUsageDescription": "An app in emexDE might request this permission.",
+          "NSBluetoothAlwaysUsageDescription": "An app in emexDE might request this permission.",
+          "NSSystemAdministrationUsageDescription": "An app in emexDE might request this permission.",
+          "NSHealthUpdateUsageDescription": "An app in emexDE might request this permission.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "An app in emexDE might request this permission.",
+          "NSPhotoLibraryAddUsageDescription": "An app in emexDE might request this permission.",
+          "NSCameraUsageDescription": "An app in emexDE might request this permission.",
+          "NSMicrophoneUsageDescription": "An app in emexDE might request this permission.",
+          "NSLocationUsageDescription": "An app in emexDE might request this permission.",
+          "NSGKFriendListUsageDescription": "An app in emexDE might request this permission.",
+          "NSAppleMusicUsageDescription": "An app in emexDE might request this permission.",
+          "NSMotionUsageDescription": "An app in emexDE might request this permission.",
+          "NSNearbyInteractionAllowOnceUsageDescription": "An app in emexDE might request this permission.",
+          "NSVideoSubscriberAccountUsageDescription": "An app in emexDE might request this permission.",
+          "NSBluetoothPeripheralUsageDescription": "An app in emexDE might request this permission.",
+          "NSCalendarsUsageDescription": "An app in emexDE might request this permission.",
+          "NSFocusStatusUsageDescription": "An app in emexDE might request this permission.",
+          "NSHomeKitUsageDescription": "An app in emexDE might request this permission.",
+          "NSLocationAlwaysUsageDescription": "An app in emexDE might request this permission.",
+          "NSLocalNetworkUsageDescription": "An app in emexDE might request this permission.",
+          "NSDownloadsFolderUsageDescription": "An app in emexDE might request this permission.",
+          "NSDocumentsFolderUsageDescription": "An app in emexDE might request this permission.",
+          "NSLocationWhenInUseUsageDescription": "An app in emexDE might request this permission.",
+          "NSSensorKitPrivacyPolicyURL": "An app in emexDE might request this permission.",
+          "NSFileProviderDomainUsageDescription": "An app in emexDE might request this permission.",
+          "NSHealthClinicalHealthRecordsShareUsageDescription": "An app in emexDE might request this permission."
         }
       }
     }
@@ -198,11 +198,11 @@
     {
       "title": "Discord",
       "identifier": "discord",
-      "caption": "The offical Nyxian Discord Server",
+      "caption": "The offical emexLab Discord Server",
       "date": "2026-02-23T20:24:00Z",
-      "tintColor": "#5865F2",
+      "tintColor": "#fff",
       "notify": false,
-      "url": "https://discord.gg/VEMvDMJ8KB"
+      "url": "https://discord.gg/Cbeg3gJzC7"
     }
   ]
 }
