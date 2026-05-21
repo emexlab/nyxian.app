@@ -1,9 +1,10 @@
 import styles from './styles.module.css';
 
-export default function Profile({ name, role, github }) {
+export default function Profile({ name, role, github, img }) {
+    const image = img || `https://github.com/${github.split('/')[0]}.png`
     return (
-        <a className={styles.profile} href={`https://github.com/${github}`} target='_blank'>
-            <img alt={name} src={`https://github.com/${github.split('/')[0]}.png`} />
+        <a className={styles.profile} href={`https://github.com/${github}`} target='_blank' rel='noopener noreferrer'>
+            <img alt={name} src={image} />
             <div>
                 <h2>{name}</h2>
                 <small title={role}>{role}</small>

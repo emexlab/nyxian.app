@@ -2,19 +2,16 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-const url = process.env.URL || 'https://emexlab.org/';
+const url = process.env.URL || 'https://emexlabs.org/';
 const baseUrl = process.env.BASE_URL || '/';
-const github = 'emexlab/emexlab.github.io'
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'emexDE',
-  tagline: 'IDE to develop native code iOS apps and tools on unjailbroken iOS',
-  //favicon: '/favicon/favicon.ico', Unused, see the headTags at the bottom
+  title: 'emexLabs',
+  tagline: 'TODO: Add tagline', // TODO
+  favicon: '/favicon.ico',
 
   titleDelimiter: '·',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: {
       removeLegacyPostBuildHeadAttribute: true,
@@ -47,32 +44,67 @@ const config = {
     },
   },*/
 
-  presets: [
+  plugins: [
+    require.resolve('docusaurus-lunr-search'),
+    '@docusaurus/plugin-content-pages',
+    '@docusaurus/plugin-sitemap',
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/' + github + '/tree/main/',
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'emexOS',
+        path: 'emexOS/docs',
+        routeBasePath: 'emexOS/docs',
+        sidebarPath: require.resolve('./sidebars.js'),
+        editUrl:
+          'https://github.com/emexlab/emexlab.github.io/tree/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'emexOS',
+        path: 'emexOS/blog',
+        routeBasePath: 'emexOS/blog',
+        blogTitle: 'emexOS News',
+        blogDescription: 'News about emexOS and its development progress.',
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
         },
-        blog: {
-          blogTitle: 'emexDE News',
-          blogDescription: 'News about emexDE and its development progress.',
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'emexDE',
+        path: 'emexDE/docs',
+        routeBasePath: 'emexDE/docs',
+        sidebarPath: require.resolve('./sidebars.js'),
+        editUrl:
+          'https://github.com/emexlab/emexlab.github.io/tree/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'emexDE',
+        path: 'emexDE/blog',
+        routeBasePath: 'emexDE/blog',
+        blogTitle: 'emexDE News',
+        blogDescription: 'News about emexDE and its development progress.',
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
         },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
-      }),
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
     ],
   ],
 
@@ -84,23 +116,21 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'emexDE',
+        title: 'emexLabs',
         logo: {
-          alt: 'emexDE Logo',
-          src: 'img/icon/light.png',
-          srcDark: 'img/icon/dark.png',
+          alt: 'Logo',
+          src: 'org.png',
           className: 'rounded',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'docSidebar',
-            position: 'left',
-            label: 'Docs',
+            to: 'emexOS',
+            label: 'emexOS',
+            position: 'left'
           },
           {
-            to: '/blog',
-            label: 'News',
+            to: 'emexDE',
+            label: 'emexDE',
             position: 'left'
           },
           /*{
@@ -109,7 +139,7 @@ const config = {
             queryString: '?persistLocale=true',
           },*/
           {
-            href: 'https://github.com/emexlab/emexDE',
+            href: 'https://github.com/emexlab',
             position: 'right',
             className: "navbar-icon github",
             'aria-label': 'GitHub',
@@ -132,55 +162,41 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Team',
             items: [
               {
-                label: 'Installation',
-                to: '/docs/installation',
+                label: 'Members',
+                to: 'members',
               },
               {
-                label: 'Credits',
-                to: '/docs/credits',
+                label: 'Project Maintainers',
+                to: 'maintainers',
+              },
+              {
+                label: 'Website Credits',
+                to: 'website/credits',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Socials & Contact',
             items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/emexlab/emexDE',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/Cbeg3gJzC7',
-              },
-            ],
-          },
-          {
-            title: 'News',
-            items: [
-              {
-                label: 'Blogs',
-                to: '/blog',
-              },
               {
                 label: 'X (formerly Twitter)',
-                href: 'https://x.com/emexthecat',
+                href: 'https://x.com/emexlabs',
               },
-            ],
-          },
-          {
-            title: 'Contact',
-            items: [
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@emexlabs',
+              },
               {
                 label: 'Email',
-                href: 'mailto:lucavmu@emexlab.org',
+                href: 'mailto:lucavmu@emexlab.de',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} emexlab. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} emexLabs. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
@@ -188,9 +204,9 @@ const config = {
         additionalLanguages: ['c', 'csharp'],
       },
       metadata: [
-        {name: 'keywords', content: 'emexDE, native iOS app development, IDE, jailed, unjailbroken, custom kernel'},
-        {name: 'description', content: 'IDE to develop native code iOS apps on unjailbroken iOS it self just via a certificate and a kernel virtualization layer for those apps. '},
-        {name: 'apple-mobile-web-app-title', content: 'emexDE Docs'},
+        {name: 'keywords', content: 'emexlab, emexOS, OS, 64bit, scratch, kernel, emexDE, iOS, app development, IDE, jailed, unjailbroken, custom kernel'},
+        {name: 'description', content: 'The team behind emexOS, a simple 64 bit experimental Operating System written from scratch, and emexDE, an IDE to develop native code iOS apps and tools on unjailbroken iOS.'},
+        {name: 'apple-mobile-web-app-title', content: 'emexLabs'},
       ],
     }),
   headTags: [
@@ -230,7 +246,7 @@ const config = {
       tagName: 'link',
       attributes: {
         rel: 'manifest',
-        href: baseUrl + 'favicon/site.webmanifest',
+        href: baseUrl + 'site.webmanifest',
       },
     },
     {
@@ -248,17 +264,24 @@ const config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org/',
         '@type': 'Organization',
-        name: 'emexlab',
+        name: 'emexLabs',
         url: url,
-        logo: baseUrl + 'img/icon/org.png',
+        logo: baseUrl + 'org.png',
       }),
     },
   ],
-  plugins: [require.resolve('docusaurus-lunr-search')],
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    [
+      '@docusaurus/theme-classic',
+      {
+        customCss: './src/css/custom.css',
+      },
+    ]
+  ],
 };
 
 export default config;

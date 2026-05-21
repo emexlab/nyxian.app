@@ -10,7 +10,6 @@
   overflow: hidden;
   align-self: center;
   max-width: 50rem;
-  padding-bottom: 0;
 }
 
 .logo {
@@ -26,33 +25,10 @@
   }
 }
 
-.sectionRow {
+.buttons {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
-  width: 100%;
-}
-
-.sectionRow > * {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.sectionRow > * {
-  border-right: 2px solid;
-  border-image: linear-gradient(
-    to bottom,
-    transparent,
-    gray 10%,
-    gray 90%,
-    transparent 100%
-  ) 1;
-}
-
-.sectionRow > *:last-child {
-  border-right: 2px solid transparent;
-  border-image: none;
 }
 
 .center {

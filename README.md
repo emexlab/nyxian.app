@@ -1,9 +1,9 @@
-# emexDE website
+# emexLabs website
 [![Discord invite](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Fv9%2Finvites%2FCbeg3gJzC7&query=profile.member_count&suffix=%20Members&style=for-the-badge&logo=discord&logoColor=fff&label=emex%20lab%20Discord&labelColor=000&color=fff
 )](https://discord.gg/Cbeg3gJzC7)
 [![Deploy test site](https://img.shields.io/github/actions/workflow/status/emexlab/emexlab.github.io/test_deploy.yml?style=for-the-badge&logo=github&label=Deploy%20test%20site&labelColor=000&color=fff
 )](https://github.com/emexlab/emexlab.github.io/actions/workflows/test_deploy.yml)
-[![Docusaurus Version](https://img.shields.io/github/package-json/dependency-version/emexlab/emexlab.github.io/%40docusaurus%2Fcore?filename=emexDE%2Fpackage.json&style=for-the-badge&logo=docusaurus&logoColor=fff&label=Docusaurus&labelColor=000&color=fff
+[![Docusaurus Version](https://img.shields.io/github/package-json/dependency-version/emexlab/emexlab.github.io/%40docusaurus%2Fcore?style=for-the-badge&logo=docusaurus&logoColor=fff&label=Docusaurus&labelColor=000&color=fff
 )](https://docusaurus.io/)
 
 [emexlab.org/emexDE](https://emexlab.org/emexDE/) was built using [Docusaurus](https://docusaurus.io/), a modern static website generator.

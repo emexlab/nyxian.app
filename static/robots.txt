@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://emexlab.org/emexDE/sitemap.xml
+Sitemap: https://emexlab.org/sitemap.xml

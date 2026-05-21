@@ -13,10 +13,11 @@ export default function NotFoundContent({className}) {
             <ThemedImage
               alt="404"
               sources={{
-                light: useBaseUrl('/img/404/light.png'),
-                dark: useBaseUrl('/img/404/dark.png'),
+                light: useBaseUrl('/404/light.png'),
+                dark: useBaseUrl('/404/dark.png'),
               }}
             />
+            <br />
             <Translate
               id="theme.NotFound.title"
               description="The title of the 404 page">
